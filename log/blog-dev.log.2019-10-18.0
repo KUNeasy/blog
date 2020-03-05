@@ -1,0 +1,132 @@
+2019-10-18 15:02:28.344  INFO 1916 --- [restartedMain] com.lkun.blog.BlogApplication            : Starting BlogApplication on DESKTOP-C80HHR9 with PID 1916 (E:\blog\target\classes started by 15067 in E:\blog)
+2019-10-18 15:02:28.388 DEBUG 1916 --- [restartedMain] com.lkun.blog.BlogApplication            : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-10-18 15:02:28.388  INFO 1916 --- [restartedMain] com.lkun.blog.BlogApplication            : The following profiles are active: dev
+2019-10-18 15:02:28.789  INFO 1916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-18 15:02:28.789  INFO 1916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-18 15:02:31.075  INFO 1916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-18 15:02:31.252  INFO 1916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133ms. Found 5 repository interfaces.
+2019-10-18 15:02:31.849  INFO 1916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1621f929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-18 15:02:32.600  INFO 1916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-18 15:02:32.624  INFO 1916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-18 15:02:32.624  INFO 1916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-18 15:02:32.795  INFO 1916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-18 15:02:32.795  INFO 1916 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4005 ms
+2019-10-18 15:02:33.163  INFO 1916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-18 15:02:33.552  INFO 1916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-18 15:02:33.798  INFO 1916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-18 15:02:34.295  INFO 1916 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-10-18 15:02:34.297  INFO 1916 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-18 15:02:35.034  INFO 1916 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-18 15:02:35.786  INFO 1916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-18 15:02:37.645  INFO 1916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-18 15:02:37.718  INFO 1916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-18 15:02:38.114  INFO 1916 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-18 15:02:39.135  INFO 1916 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-18 15:02:39.207  WARN 1916 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-18 15:02:39.277  INFO 1916 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-18 15:02:39.786  INFO 1916 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-10-18 15:02:39.927  INFO 1916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-18 15:02:39.929  INFO 1916 --- [restartedMain] com.lkun.blog.BlogApplication            : Started BlogApplication in 13.076 seconds (JVM running for 15.554)
+2019-10-18 15:07:25.043  INFO 1916 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-18 15:07:25.044  INFO 1916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-18 15:07:25.057  INFO 1916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-10-18 15:07:25.150  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], com.lkun.blog.vo.BlogQuery@5bbea4de, {blogQuery=com.lkun.blog.vo.BlogQuery@5bbea4de, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2019-10-18 15:07:25.278  WARN 1916 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-18 15:07:25.303  WARN 1916 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-10-18 15:07:25.311  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : result : index
+2019-10-18 15:07:30.759  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:07:30.761  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:36:01.495  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], com.lkun.blog.vo.BlogQuery@1380964d, {blogQuery=com.lkun.blog.vo.BlogQuery@1380964d, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2019-10-18 15:36:01.515  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : result : index
+2019-10-18 15:36:01.996  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:36:02.000  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:36:09.745  INFO 1916 --- [http-nio-8080-exec-10] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/blog/7', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.blog', args=[7, {}]}
+2019-10-18 15:36:09.815  INFO 1916 --- [http-nio-8080-exec-10] com.lkun.blog.aspect.LogAspect           : result : blog
+2019-10-18 15:36:10.190  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:36:10.194  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:36.813  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:36.829  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : result : types
+2019-10-18 15:37:37.079  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:37.083  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:38.707  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:38.729  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : result : tags
+2019-10-18 15:37:38.958  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:38.963  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:39.691  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.ArchiveShowController.archives', args=[{}]}
+2019-10-18 15:37:39.708  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : result : archives
+2019-10-18 15:37:39.933  INFO 1916 --- [http-nio-8080-exec-2] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:39.938  INFO 1916 --- [http-nio-8080-exec-2] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:40.310  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.AboutShowController.about', args=[]}
+2019-10-18 15:37:40.313  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : result : about
+2019-10-18 15:37:40.555  INFO 1916 --- [http-nio-8080-exec-3] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:40.561  INFO 1916 --- [http-nio-8080-exec-3] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:41.341  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.ArchiveShowController.archives', args=[{}]}
+2019-10-18 15:37:41.350  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : result : archives
+2019-10-18 15:37:41.545  INFO 1916 --- [http-nio-8080-exec-6] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:41.551  INFO 1916 --- [http-nio-8080-exec-6] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:42.211  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:42.222  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : result : tags
+2019-10-18 15:37:42.438  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:42.441  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:44.089  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:44.099  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : result : tags
+2019-10-18 15:37:44.327  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:44.331  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:44.534  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.ArchiveShowController.archives', args=[{}]}
+2019-10-18 15:37:44.541  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : result : archives
+2019-10-18 15:37:44.744  INFO 1916 --- [http-nio-8080-exec-2] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:44.750  INFO 1916 --- [http-nio-8080-exec-2] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:48.091  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:48.098  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : result : tags
+2019-10-18 15:37:48.349  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:48.355  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:48.610  INFO 1916 --- [http-nio-8080-exec-3] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:48.615  INFO 1916 --- [http-nio-8080-exec-3] com.lkun.blog.aspect.LogAspect           : result : types
+2019-10-18 15:37:48.831  INFO 1916 --- [http-nio-8080-exec-6] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:48.836  INFO 1916 --- [http-nio-8080-exec-6] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:49.167  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], com.lkun.blog.vo.BlogQuery@25eab433, {blogQuery=com.lkun.blog.vo.BlogQuery@25eab433, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2019-10-18 15:37:49.178  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : result : index
+2019-10-18 15:37:49.401  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:49.406  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:49.739  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:49.746  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : result : types
+2019-10-18 15:37:49.977  INFO 1916 --- [http-nio-8080-exec-10] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:49.981  INFO 1916 --- [http-nio-8080-exec-10] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:50.331  INFO 1916 --- [http-nio-8080-exec-2] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:50.337  INFO 1916 --- [http-nio-8080-exec-2] com.lkun.blog.aspect.LogAspect           : result : tags
+2019-10-18 15:37:50.547  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:50.552  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:50.814  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.ArchiveShowController.archives', args=[{}]}
+2019-10-18 15:37:50.821  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : result : archives
+2019-10-18 15:37:51.024  INFO 1916 --- [http-nio-8080-exec-6] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:51.028  INFO 1916 --- [http-nio-8080-exec-6] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:51.263  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:51.268  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : result : tags
+2019-10-18 15:37:51.484  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:51.489  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:51.776  INFO 1916 --- [http-nio-8080-exec-10] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:51.782  INFO 1916 --- [http-nio-8080-exec-10] com.lkun.blog.aspect.LogAspect           : result : types
+2019-10-18 15:37:51.994  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:51.999  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:52.279  INFO 1916 --- [http-nio-8080-exec-3] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:52.285  INFO 1916 --- [http-nio-8080-exec-3] com.lkun.blog.aspect.LogAspect           : result : tags
+2019-10-18 15:37:52.480  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:52.484  INFO 1916 --- [http-nio-8080-exec-7] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:52.829  INFO 1916 --- [http-nio-8080-exec-6] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.ArchiveShowController.archives', args=[{}]}
+2019-10-18 15:37:52.836  INFO 1916 --- [http-nio-8080-exec-6] com.lkun.blog.aspect.LogAspect           : result : archives
+2019-10-18 15:37:53.037  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:53.041  INFO 1916 --- [http-nio-8080-exec-4] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:53.887  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:53.893  INFO 1916 --- [http-nio-8080-exec-5] com.lkun.blog.aspect.LogAspect           : result : tags
+2019-10-18 15:37:54.129  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:54.133  INFO 1916 --- [http-nio-8080-exec-9] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:54.996  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-10-18 15:37:55.002  INFO 1916 --- [http-nio-8080-exec-1] com.lkun.blog.aspect.LogAspect           : result : types
+2019-10-18 15:37:55.224  INFO 1916 --- [http-nio-8080-exec-2] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:55.227  INFO 1916 --- [http-nio-8080-exec-2] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList
+2019-10-18 15:37:57.685  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], com.lkun.blog.vo.BlogQuery@36f99ded, {blogQuery=com.lkun.blog.vo.BlogQuery@36f99ded, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2019-10-18 15:37:57.693  INFO 1916 --- [http-nio-8080-exec-8] com.lkun.blog.aspect.LogAspect           : result : index
+2019-10-18 15:37:57.911  INFO 1916 --- [http-nio-8080-exec-3] com.lkun.blog.aspect.LogAspect           : Request : Requesting{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lkun.blog.web.IndexController.newblogs', args=[{}]}
+2019-10-18 15:37:57.915  INFO 1916 --- [http-nio-8080-exec-3] com.lkun.blog.aspect.LogAspect           : result : _fragments :: newBlogList

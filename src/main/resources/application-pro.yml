@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.36.82.204:3306/blog?useUnicode=true&serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: Liu1506714096@qq.com
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    root: warn
+    com.lkun.blog: info
+  file: log/blog-pro.log
+server:
+  port: 8081

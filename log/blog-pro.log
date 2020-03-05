@@ -1,0 +1,4 @@
+2020-03-05 14:53:12.804  INFO 732 --- [main] com.lkun.blog.BlogApplicationTests       : Starting BlogApplicationTests on DESKTOP-C80HHR9 with PID 732 (started by 15067 in E:\blog)
+2020-03-05 14:53:12.808  INFO 732 --- [main] com.lkun.blog.BlogApplicationTests       : The following profiles are active: dev
+2020-03-05 14:53:24.157  WARN 732 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-05 14:53:24.637  INFO 732 --- [main] com.lkun.blog.BlogApplicationTests       : Started BlogApplicationTests in 12.597 seconds (JVM running for 13.749)
